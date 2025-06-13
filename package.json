@@ -1,11 +1,11 @@
 {
   "name": "weather-wss",
   "version": "1.0.0",
-  "description": "",
+  "description": "WebSocket server for weather-web",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
