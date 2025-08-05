@@ -26,8 +26,6 @@ function broadcastToClients(message) {
   });
 }
 
-
-// Запускаем сервер
 const PORT = process.env.PORT;
 server.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
